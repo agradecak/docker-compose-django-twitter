@@ -1,0 +1,15 @@
+{% block content %}
+
+<h2>Tvitovi</h2>
+<ul>
+    {% for tvit in object_list %}
+        <li style="list-style: none;">
+            {{ tvit.stvorio }} wrote <br>
+            <strong> {{ tvit.tijelo }} </strong> <br>
+            <em>at {{ tvit.vrijeme_stvaranja }} </em> <br>
+        </li>
+        <br>
+    {% endfor %}
+</ul>
+
+{% endblock %}
