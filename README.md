@@ -6,7 +6,7 @@ author: Andrija Gradečak
 
 ## Opis aplikacije
 
-`django-tviter` je pojednostavljena aplikacija nalik Twitter-u, u kojoj imamo Twitter korisnike (*tviteras*-e) i njihove Tweet-ove (*tvit*-ove).  
+`django-tviter` je pojednostavljena Twitter aplikacija, u kojoj imamo Twitter korisnike (*tviteras*-e) i njihove Tweet-ove (*tvit*-ove).  
 Svaki *tvit* je vezan uz jednog *tviteras*-a, a popis svih *tvit*-ova nalazimo na url-u `https://localhost/tvitovi/`.  
 `https://localhost/tvitovi/` zove `ListView` pogled `TvitoviList` koji ispisuje sve *tvit*-ove zajedno sa njihovim autorima i vremenom post-anja.
 
